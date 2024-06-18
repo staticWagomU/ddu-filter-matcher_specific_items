@@ -14,7 +14,7 @@ Params			|ddu-filter-matcher_specific_items-params|
 ==============================================================================
 INTRODUCTION			*ddu-filter-matcher_specific_items-introduction*
 
-This matcher filters items matching a string that begins with a specific character.
+This matcher filters items matching a string that begins or ends or includes with a specific character.
 
 
 ==============================================================================
@@ -51,7 +51,17 @@ PARAMS				*ddu-filter-matcher_specific_items-params*
 
 			*ddu-filter-matcher_specific_items-param-startsWith*
 startsWith (string)
-		First string of narrowing.
+		Only items that start with this string will match.
+
+		Default: ""
+
+endsWith (string)
+		Only items that end with this string will match.
+
+		Default: ""
+
+includes (string)
+		Only items that include this string will match.
 
 		Default: ""
 
