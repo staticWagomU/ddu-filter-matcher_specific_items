@@ -2,7 +2,6 @@
 
 String Matcher starting with a specific character for ddu.vim
 
-This matcher filters substring matched items.
 This matcher filters items matching a string that begins with a specific character.
 
 
